@@ -1,0 +1,5 @@
+1 - EditorConfig, Eslint e prettier.
+2 - Reactotron (Para debugging, como se fosse o console do Browser)
+3 - Roteamento (yarn add react-navigation | vá até as docs e siga os passos e
+depois de um yarn react-native run-android | yarn react-native start)
+
