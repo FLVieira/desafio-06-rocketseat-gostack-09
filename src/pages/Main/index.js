@@ -1,10 +1,8 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Text } from 'react-native';
 
 // import { Container } from './styles';
 
-const Main = () => {
-  return <View />;
-};
-
-export default Main;
+export default function Main() {
+  return <Text>Main</Text>;
+}
