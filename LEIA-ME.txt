@@ -5,3 +5,4 @@ depois de um yarn react-native run-android | yarn react-native start)
 Pesquisar sobre tipos de navegação: drawer, stack, abas.
 4 - Status Bar
 5 - Styled Components
+6 - Estilizando Formulário
