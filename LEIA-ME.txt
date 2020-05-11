@@ -7,3 +7,4 @@ Pesquisar sobre tipos de navegação: drawer, stack, abas.
 5 - Styled Components
 6 - Estilizando Formulário
 7 - Acessando API do GitHub
+8 - Estilizando Listagem
