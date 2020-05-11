@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Main from './pages/Main';
 import User from './pages/User';
+import WebView from './pages/WebView';
 
 const Stack = createStackNavigator();
 
@@ -28,6 +29,11 @@ function Routes() {
         <Stack.Screen
           name="User"
           component={User}
+          options={({ route }) => ({ title: route.params.title })}
+        />
+        <Stack.Screen
+          name="WebView"
+          component={WebView}
           options={({ route }) => ({ title: route.params.title })}
         />
       </Stack.Navigator>
