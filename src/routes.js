@@ -21,7 +21,7 @@ function Routes() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={screenOptions}>
         <Stack.Screen name="Usuários" component={Main} />
-        <Stack.Screen name="User" component={User} />
+        <Stack.Screen name="Usuário" component={User} />
       </Stack.Navigator>
     </NavigationContainer>
   );

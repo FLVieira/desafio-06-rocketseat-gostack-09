@@ -1,8 +1,9 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View } from 'react-native';
 
 // import { Container } from './styles';
 
-export default function User() {
-  return <Text>User</Text>;
+export default function User(props) {
+  // props.route.params
+  return <View />;
 }
