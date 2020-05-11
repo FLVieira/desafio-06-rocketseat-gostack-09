@@ -20,8 +20,16 @@ function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={screenOptions}>
-        <Stack.Screen name="Usuários" component={Main} />
-        <Stack.Screen name="Usuário" component={User} />
+        <Stack.Screen
+          name="Users"
+          options={{ title: 'Usuários' }}
+          component={Main}
+        />
+        <Stack.Screen
+          name="User"
+          component={User}
+          options={({ route }) => ({ title: route.params.title })}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -62,8 +62,9 @@ export default class Main extends Component {
 
   handleNavigate = (user) => {
     const { navigation } = this.props;
-    navigation.navigate('Usuário', {
+    navigation.navigate('User', {
       user,
+      title: user.name,
     });
   };
 

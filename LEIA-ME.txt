@@ -12,3 +12,4 @@ Pesquisar sobre tipos de navegação: drawer, stack, abas.
 10 - Salvando no storage
 11 - Realizando Navegação
 12 - Buscando dados da API
+13 - Listando Favoritos
